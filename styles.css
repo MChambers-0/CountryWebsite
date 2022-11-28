@@ -1,0 +1,85 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+        etc.
+
+    }
+
+    Selector options:
+
+    tag name, such as p or img
+    .class name, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+    tagname>tagname
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+*/
+
+.nav {
+
+    list-style: none;
+    border-style: groove;
+    border-color: rgb(144, 144, 241);
+    padding-left: 0%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.nav>li{
+  
+    border-style: ridge;
+    border-color: rgb(144, 144, 241);
+    display: inline-block;
+
+}
+
+.imgcenter{
+
+    display: block;
+    width: 20%;
+    margin: auto;
+
+
+}
+
+body{
+
+    background-color: rgb(144, 144, 241);
+
+}
+
+.center{
+
+    text-align: center;
+
+}
+
+a{
+
+    color:black;
+
+}
+
+p{
+
+    text-align: center;
+
+}
+
+h2{
+
+    text-align: center;
+
+}
+
+.imgcenter1{
+
+    display: inline-block;
+    width: 20%;
+    margin-left: 189pt;
+}
